@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+<!-- saved from url=(0056)https://chad-bennett.github.io/eresa/demo/transform.html -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>transforms page</title>
+  <style>
+    body {
+      background-color: #b5b5b5;
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: #000000;
+      margin: 4rem;
+    }
+
+    #box1 {
+      transition: transform 1s, background-color 1s;
+    }
+
+    #box1:hover {
+      transform:rotate(10000deg);
+      background-color: #456789;
+    }
+
+    #box2 {
+      transition: transform 1s;
+    }
+
+    #box2:hover {
+      transform: translate(20px, 20px);
+      background-color: #6b2ab4;
+      box-shadow: -20px -20px 10px;
+    }
+
+    #box3 {
+      transition: transform 1s;
+    }
+
+    #box3:hover {
+      transform: scale(2);
+      background-color: #2aafb4;
+    }
+
+    #box4 {}
+
+    #box4:hover {
+      background-image: url("toby.jpg");
+      background-position:center;
+    }
+
+    #box5 {}
+
+    #box5:hover {
+      -webkit-transform: rotateX(150deg); /* Safari */
+  transform: rotateX(150deg);
+  background-color: #169a44;
+    }
+
+    #box6 {}
+
+    #box6:hover {
+      -webkit-transform: rotateY(130deg); /* Safari */
+  transform: rotateY(130deg);
+  background-color: #7c0b38;
+    }
+
+    #box7 {
+      transition: transform 1s, background-color 1s;
+      -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+  -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); /* Safari */
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+    }
+
+    #box7:hover {
+  background-color: #704697;
+  transform:rotate(9deg);
+    }
+
+    #box8 {}
+
+    #box8:hover {
+      transition: transform 1s, background-color 1s;
+      -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+  -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); /* Safari */
+  background-color: #978e46;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="box1"> </div>
+  <div id="box2"> </div>
+  <div id="box3"> </div>
+  <div id="box4"> </div>
+  <div id="box5"> </div>
+  <div id="box6"> </div>
+  <div id="box7"> </div>
+  <div id="box8"> </div>
+
+
+</body></html>
