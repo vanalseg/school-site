@@ -35,6 +35,7 @@ a{
   text-align: center;
   border-radius: 20px;
   border:1px solid #fff;
+  float: left;
 }
 
 a:hover {
@@ -44,11 +45,18 @@ a:hover {
 a:active{
   background: black;
 }
+
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
+
 </style/>
 </head>
 
   <body>
-<ul>
+<ul class="clearfix">
     <li><a href="text.html">this is my text page</a></li>
     <li><a href="box.html">this is my box page</a></li>
     <li><a href="stuff.html">this is my stuff page</a></li>
