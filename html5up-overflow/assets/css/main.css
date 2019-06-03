@@ -99,6 +99,8 @@ input, select, textarea {
 		-webkit-text-stroke: 0.25px;
 	}
 
+	.copyright {color: #fff;}
+
 		body.is-scroll {
 			background-attachment: scroll, scroll;
 			background-size: auto, 100% auto;
