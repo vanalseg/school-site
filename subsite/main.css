@@ -1,0 +1,59 @@
+body{
+background:url("tree_bark.png")
+}
+
+h1{
+  color: #757abc;
+}
+
+p{
+  color: #757abc;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #111;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.active {
+  background-color: #999;
+  color: white;
+}
+
+nav{
+  width: 18%;
+  float: left;
+  border: 5px solid #757abc;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+p{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+h2{
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #757abc;
+}
